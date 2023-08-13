@@ -49,6 +49,8 @@ const propertydata = [
       "date": "1 year",
       "price": "$800,000",
       "propertyType": "Land",
+      "bedrooms": 4,
+      "bathrooms": 3,
       "area": 600,
       "imageUrl": "./realestate5.jpeg"
   },
@@ -431,7 +433,7 @@ const propertydata = [
       "area": 300,
       "imageUrl": "./realestate5.jpeg"
   },
-  // Continue adding properties up to 50...
+  
 ];
 
 export default propertydata;
