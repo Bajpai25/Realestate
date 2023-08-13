@@ -77,10 +77,10 @@ function Main() {
             <div className='border-b-2 flex flex-row border-gray-200 text-4xl font-bold text-[#333333]'>
             <FaLocationDot className='text-purple-600 mb-4'/>{item.location}</div>
             <p className='flex flex-row  justify-around m-1'>
-            <p className='flex flex-row font-mono text-xl pt-1.5 text-gray-600'><IoBedOutline className='text-purple-600 
+            <p className='flex flex-row font-mono text-lg md:text-xl pt-1.5 text-gray-600'><IoBedOutline className='text-purple-600 
             h-6 w-6 mt-1 mr-2'/>{item.bedrooms} beds</p>
-            <p className='flex flex-row font-mono text-xl pt-1.5 text-gray-600'><LuBath className='text-purple-600 mr-2 h-6 w-6 mt-1'/>{item.bathrooms} bathrooms</p>
-            <p className='flex flex-row font-mono text-xl pt-1.5 text-gray-600'><MdLandscape className='text-purple-600 mr-2 h-6 w-6 mt-1'/>{item.area} m²</p>
+            <p className='flex flex-row font-mono text-lg md:text-xl pt-1.5 text-gray-600'><LuBath className='text-purple-600 mr-2 h-6 w-6 mt-1'/>{item.bathrooms} bathrooms</p>
+            <p className='flex flex-row font-mono text-lg md:text-xl pt-1.5 text-gray-600'><MdLandscape className='text-purple-600 mr-2 h-6 w-6 mt-1'/>{item.area} m²</p>
             </p>
             <p className='text-lg text-center font-semibold text-white bg-purple-600 rounded-md w-26 h-10 p-1 m-1'>{item.propertyType}</p>
             </div>
