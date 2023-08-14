@@ -72,7 +72,10 @@ function Main() {
         (location==="Any"||item.location===location)&&(price==="Any"|| item.price===price)&&(date==="Any"|| item.date===date))
         .map((item)=>(
             <div key={item.id} className='bg-white w-[400px] pb-3 m-3  text-black shadow-lg shadow-gray-400'>
-            <img src={item.imageUrl} className='drop-shadow-lg' alt={item.imageUrl}></img>
+            <div className='max-w-sm rounded overflow-hidden shadow-lg hover:shadow-xl transition duration-300 
+            ease-in-out transform hover:-translate-x-0 hover:-translate-y-2 hover:-translate-z-2 hover:scale-105'>
+            <img src={item.imageUrl} className='w-full m-0 p-0' alt={item.imageUrl}></img>
+            </div>
             <div className='text-purple-600 text-2xl font-semibold mt-2 mb-2 pl-2'>{item.price}<span className='text-gray-300 text-lg font-mono'>/year</span></div>
             <div className='border-b-2 flex flex-row border-gray-200 text-4xl font-bold text-[#333333]'>
             <FaLocationDot className='text-purple-600 mb-4'/>{item.location}</div>
